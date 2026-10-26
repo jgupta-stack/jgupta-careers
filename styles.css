@@ -791,6 +791,15 @@ main:focus { outline: none; }
 }
 .contact-role { color: var(--on-dark-2); margin-top: var(--s-1); }
 .contact-email { margin-top: var(--s-4); font-size: var(--fs-md); font-weight: 600; }
+.contact-phone {
+  margin-top: var(--s-5);
+  padding-top: var(--s-4);
+  border-top: 1px solid rgba(250, 248, 242, 0.16);
+}
+.contact-phone-label { font-size: var(--fs-sm); color: var(--on-dark-2); }
+.contact-phone-number { margin-top: var(--s-1); font-size: var(--fs-md); font-weight: 600; }
+.contact-phone-number a { color: var(--gold-bright); text-decoration: none; display: inline-flex; min-height: 44px; align-items: center; }
+.contact-phone-number a:hover { color: var(--on-dark); text-decoration: underline; }
 .contact-privacy {
   margin-top: var(--s-5);
   padding-top: var(--s-4);
